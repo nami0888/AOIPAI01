@@ -100,9 +100,21 @@ header .headar_btn img {
     top: 11vw;
 }
 
-.service {
+.service  .aoipay_icon{
     width: 100%;
 }
-.service .aa{
-    width: 60%;
+.service .card_icon{
+    width: 100%;
+}
+.service .QR-icon{
+    width: 100%;
+}
+.service  .aoipay_icon img{
+    width: 29.8%;
+}
+.service .card_icon img{
+    width: 29.8%;
+}
+.service .QR-icon img{
+    width: 29.8%;
 }
