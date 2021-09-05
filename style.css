@@ -1,35 +1,108 @@
 body {
-  max-width: 750px;
-  margin: 0 auto;
+    max-width: 750px;
+    margin: 0 auto;
 }
 
 header {
-  position: relative;
-  height: 12vw;
+    position: relative;
+    height: 12vw;
 }
 
 header .header_aoipay {
-  width: 26vw;
-  margin: 0 auto;
-  height: 12vw;
-  padding-top: 4vw;
-}
-header .header_aoipay img{
-  width: 26vw;
+    width: 26vw;
+    margin: 0 auto;
+    height: 12vw;
+    padding-top: 4vw;
 }
 
-header .headar_btn {
-  position: absolute;
-  right: 85px;
-  top: 20px;
+header .header_aoipay img {
+    width: 26vw;
+}
+
+header .headar_btn img {
+    height: 9vw;
+    position: absolute;
+    left: 88vw;
+    top: 1.7vw;
 }
 
 /*メイン*/
 
 .main_view {
-  background-image: url(images/mv.png);
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 100vw;
+    max-width: 100%;
+    height: 100vw;
+    background-image: url(images/mv.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main_view h1 img {
+    position: absolute;
+    top: 36%;
+    left: 4%;
+    width: 46%;
+}
+
+.main_view p img {
+    position: absolute;
+    top: 17.8%;
+    left: 4%;
+    width: 46%;
+}
+
+.campaign h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 6.6%;
+    margin-bottom: 9.3%;
+}
+
+.campaign .campaign-grop {
+    width: 72%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.campaign .campaign-grop img {
+    width: 72%;
+    margin: 0 auto;
+}
+
+.campaign-left_btn img {
+    width: 100%;
+}
+
+.campaign .campaign-grop .campaign-bnr {
+    width: 100%;
+    position: relative;
+}
+
+.campaign .campaign-right_btn img {
+    width: 100%;
+}
+
+.campaign .campaign-left_btn img {
+    width: 100%;
+}
+
+.campaign .campaign-left_btn {
+    width: 7%;
+    position: absolute;
+    left: -11%;
+    top: 11vw;
+}
+
+.campaign .campaign-right_btn {
+    width: 7%;
+    position: absolute;
+    right: -11vw;
+    top: 11vw;
+}
+
+.service {
+    width: 100%;
+}
+.service .aa{
+    width: 60%;
 }
