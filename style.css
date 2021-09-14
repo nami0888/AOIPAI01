@@ -1,26 +1,32 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     max-width: 750px;
     margin: 0 auto;
+    font-size: 1.4rem;
+}
+
+img {
+    width: 100%;
 }
 
 header {
     position: relative;
     height: 12vw;
+    border-bottom: solid 0.5vw;
+    border-image: linear-gradient(to right, #09afd2 0%, #07cfa0 100%);
 }
 
 header .header_aoipay {
-    width: 26vw;
+    width: 28vw;
     margin: 0 auto;
-    height: 12vw;
-    padding-top: 4vw;
+    padding-top: 3.8vw;
 }
 
-header .header_aoipay img {
-    width: 26vw;
-}
-
-header .headar_btn img {
-    height: 9vw;
+header .headar_btn {
+    width: 9vw;
     position: absolute;
     left: 88vw;
     top: 1.7vw;
@@ -37,14 +43,14 @@ header .headar_btn img {
     position: relative;
 }
 
-.main_view h1 img {
+.main_view h1 {
     position: absolute;
     top: 36%;
     left: 4%;
     width: 46%;
 }
 
-.main_view p img {
+.main_view p {
     position: absolute;
     top: 17.8%;
     left: 4%;
@@ -52,7 +58,7 @@ header .headar_btn img {
 }
 
 .campaign h2 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-top: 6.6%;
     margin-bottom: 9.3%;
@@ -64,26 +70,13 @@ header .headar_btn img {
     position: relative;
 }
 
-.campaign .campaign-grop img {
+.campaign .campaign-grop {
     width: 72%;
     margin: 0 auto;
 }
 
-.campaign-left_btn img {
-    width: 100%;
-}
-
 .campaign .campaign-grop .campaign-bnr {
-    width: 100%;
     position: relative;
-}
-
-.campaign .campaign-right_btn img {
-    width: 100%;
-}
-
-.campaign .campaign-left_btn img {
-    width: 100%;
 }
 
 .campaign .campaign-left_btn {
@@ -100,21 +93,134 @@ header .headar_btn img {
     top: 11vw;
 }
 
-.service  .aoipay_icon{
-    width: 100%;
+/*ご利用方法*/
+
+.service h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 26.6%;
+    margin-bottom: 9.3%;
 }
-.service .card_icon{
-    width: 100%;
+
+.service .service_text {
+    font-size: 1.5rem;
 }
-.service .QR-icon{
-    width: 100%;
-}
-.service  .aoipay_icon img{
+
+.service .aoipay_icon .card_icon .QR-icon {
     width: 29.8%;
 }
-.service .card_icon img{
+
+.service li {
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.service li .aoipay_icon {
     width: 29.8%;
 }
-.service .QR-icon img{
+
+.service li .card_icon {
     width: 29.8%;
+}
+
+.service li .QR-icon {
+    width: 29.8%;
+}
+
+.service .btn {
+    border: solid;
+    border-radius: 15px;
+    color: rgb(157, 166, 172);
+    height: 9.6vw;
+    width: 76.8vw;
+    margin: 0 auto;
+    padding-top: 5.3vw;
+    text-align: center;
+    margin-top: 11.2vw;
+}
+
+.service .btn a {
+    text-decoration: none;
+    color: rgb(157, 166, 172);
+}
+.service_text {
+    margin-left: 5.73vw;
+}
+
+.announce {
+    background-image: url(images/town.png);
+    background-position: top 9vw right;
+    background-size: 52.8vw;
+    background-repeat: no-repeat;
+   
+}
+
+.announce h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 26.4vw;
+    margin-bottom: 14.6vw;
+}
+
+.announce .announce-text {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height:3vw;
+    margin-left: 4vw;
+}
+.announce .announce-text  :last-child{
+margin-bottom: 9.3vw;
+font-size: 1.1rem;
+}
+
+.announce .announce-text b {
+    font-size: 4.5rem;
+    line-height: 20vw;
+}
+
+.announce .announce-btn{
+    border: solid;
+    border-radius: 15px;
+    color: rgb(157, 166, 172);
+    height: 9.6vw;
+    width: 76.8vw;
+    margin: 0 auto;
+    padding-top: 5.3vw;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+.announce .announce-btn :first-of-type{
+    margin-top: 10vw;
+   
+}
+
+.download h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 46vw;
+    margin-bottom: 14.3vw;
+}
+
+.download p {
+    width: 64vw;
+    margin: 0 auto;
+    margin-bottom: 3.3vw;
+}
+
+.cussion h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 26.4vw;
+    margin-bottom: 14.6vw;
+}
+
+.cussion dl {
+    font-size: 1.5rem;
+}
+
+.cussion dt {
+    background-image: url(images/Q-mark.png);
+    width: 11vw;
 }
