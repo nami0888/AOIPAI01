@@ -101,7 +101,6 @@ header .headar_btn {
     text-align: center;
     margin-top: 26.6%;
     margin-bottom: 9.3%;
-    
 }
 
 .service .service_text {
@@ -121,7 +120,6 @@ header .headar_btn {
 .service .card_text {
     font-weight: normal;
     line-height: 1.6;
-
     font-size: 1.3rem;
 }
 
@@ -149,10 +147,9 @@ header .headar_btn {
     border: solid;
     border-radius: 15px;
     color: rgb(157, 166, 172);
-    height: 9.6vw;
+    height: 15.7vw;
     width: 76.8vw;
     margin: 0 auto;
-    padding-top: 5.3vw;
     text-align: center;
     margin-top: 11.2vw;
     position: relative;
@@ -163,16 +160,13 @@ header .headar_btn {
     text-decoration: none;
     display: block;
     position: absolute;
+    padding-top: 5.3vw;
     top: 0;
     left: 0;
     width: 100%;
     height: 72%;
     text-align: center;
-
 }
-
-
-
 
 .announce {
     background-image: url(images/town.png);
@@ -196,12 +190,13 @@ header .headar_btn {
 }
 
 .announce .announce-text :last-child {
-    margin-bottom: 9.3vw;
+    margin: 6.6vw 0 9.3vw;
     font-size: 1.1rem;
     line-height: 5.3vw;
 }
-.announce .announce-text b{
-font-size: 4.5rem;
+
+.announce .announce-text b {
+    font-size: 4.5rem;
 }
 
 .announce .announce-text a {
@@ -213,25 +208,27 @@ font-size: 4.5rem;
     border: solid;
     border-radius: 15px;
     color: rgb(157, 166, 172);
-    height: 9.6vw;
+    height: 15.7vw;
     width: 76.8vw;
     margin: 0 auto;
-    padding-top: 5.3vw;
     text-align: center;
     margin-bottom: 4vw;
     background-color: #FFFFFF;
+    position: relative;
 }
 
-
-.announce .announce-btn a{
+.announce .announce-btn a {
     color: rgb(52, 62, 66);
     text-decoration: none;
     display: block;
-
+    position: absolute;
+    padding-top: 5.3vw;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    text-align: center;
 }
-
-
-
 
 .download h2 {
     font-size: 2.5rem;
@@ -239,7 +236,6 @@ font-size: 4.5rem;
     margin-top: 46vw;
     margin-bottom: 14.3vw;
 }
-
 
 .download p {
     width: 64vw;
@@ -253,15 +249,22 @@ font-size: 4.5rem;
     margin-top: 26.9vw;
     margin-bottom: 11.2vw;
 }
-.cussion ul{
+
+.cussion ul {
     width: 92%;
     margin: 0 auto;
+    list-style: none;
 }
-.cussion li{
-    border: rgb(223, 231, 236);
-    border-bottom: solid 0.2vw;
-    display: inline-block;
-    padding: 5.3vw 0 5.3vw 0;
+
+.cussion li {
+    border-top: solid rgb(223, 231, 236);
+    border-width: 1px 0 1px;
+    padding: 7vw 0 7vw 0;
+    height: 30vw;
+}
+
+.cussion li:first-child {
+    border: none;
 }
 
 .cussion dl {
@@ -277,26 +280,28 @@ font-size: 4.5rem;
     height: 10.62vw;
 }
 
-
-
-
-.cussion dd{
+.cussion dd {
     background-image: url(images/A-mark.png);
     background-repeat: no-repeat;
     background-size: 10.6vw;
     padding-left: 13vw;
     padding-top: 2.3vw;
     height: 10.62vw;
+    line-height: 5.6vw;
+    font-size: 1.3rem;
+}
+
+.cussion a {
+    color: black;
 }
 
 .cussion .btn {
     border: solid;
     border-radius: 15px;
     color: rgb(157, 166, 172);
-    height: 9.6vw;
+    height: 15.7vw;
     width: 76.8vw;
     margin: 0 auto;
-    padding-top: 5.3vw;
     text-align: center;
     margin-top: 12vw;
     position: relative;
@@ -307,15 +312,76 @@ font-size: 4.5rem;
     text-decoration: none;
     display: block;
     position: absolute;
+    padding-top: 5.3vw;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 60%;
     text-align: center;
 }
 
-¸¸
 /*フッター*/
-/*グラデーションの背景を出す*/
-/*文字は白*/
-/*縦に並べる*/
+
+footer {
+    width: 100%;
+    height: 100vw;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #06a67e 0%, #0790a1 100%);
+    position: relative;
+    margin-top: 20vw;
+}
+
+footer .footer-grop {
+    width: 92%;
+    margin: 0 auto;
+}
+
+footer .footer-aoypay {
+    position: absolute;
+    left: 4vw;
+    top: 9.3vw;
+}
+
+footer .sns_group {
+    position: absolute;
+    left: 50vw;
+    top: 9.3vw;
+}
+
+footer li {
+    float: left;
+    width: 50%;
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 2.5;
+}
+
+footer ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 4vw;
+}
+
+footer .footer-aoypay {
+    width: 36vw;
+}
+
+footer .twitter, .facebook, .instagram {
+    width: 6.6vw;
+    margin-right: 4vw;
+}
+
+footer .footer-text {
+    width: 92%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 28vw;
+    left: 4vw;
+}
+
+footer .copy-aoiyuwaku {
+    font-size: 1.3rem;
+    position: absolute;
+    top: 66vw;
+    right: 4.4vw;
