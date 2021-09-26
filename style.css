@@ -287,7 +287,7 @@ header .headar_btn {
     padding-left: 13vw;
     padding-top: 2.3vw;
     height: 10.62vw;
-    line-height: 5.6vw;
+    line-height: 2;
     font-size: 1.3rem;
 }
 
@@ -299,53 +299,48 @@ header .headar_btn {
     border: solid;
     border-radius: 15px;
     color: rgb(157, 166, 172);
-    height: 15.7vw;
     width: 76.8vw;
     margin: 0 auto;
     text-align: center;
     margin-top: 12vw;
-    position: relative;
 }
 
 .cussion .btn a {
     color: rgb(52, 62, 66);
+    height: 15.7vw;
     text-decoration: none;
-    display: block;
-    position: absolute;
-    padding-top: 5.3vw;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60%;
-    text-align: center;
+    fd width: 100%;
+    height: 15.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*フッター*/
 
 footer {
     width: 100%;
-    height: 100vw;
     color: #FFFFFF;
     background-image: linear-gradient(to right, #06a67e 0%, #0790a1 100%);
-    position: relative;
+    background-size: 100vw;
     margin-top: 20vw;
+    position: relative;
+    padding: 73%;
 }
 
 footer .footer-grop {
-    width: 92%;
-    margin: 0 auto;
-}
-
-footer .footer-aoypay {
+    display: flex;
     position: absolute;
     left: 4vw;
     top: 9.3vw;
 }
 
+footer .footer-aoypay {
+    padding-right: 10vw;
+}
+
 footer .sns_group {
-    position: absolute;
-    left: 50vw;
-    top: 9.3vw;
+
 }
 
 footer li {
@@ -359,7 +354,7 @@ footer li {
 footer ul li a {
     color: #FFFFFF;
     text-decoration: none;
-    margin-right: 4vw;
+
 }
 
 footer .footer-aoypay {
@@ -376,8 +371,8 @@ footer .footer-text {
     margin: 0 auto;
     font-size: 1.3rem;
     position: absolute;
-    top: 28vw;
-    left: 4vw;
+    top: 12vw;
+
 }
 
 footer .copy-aoiyuwaku {
