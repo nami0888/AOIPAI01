@@ -303,6 +303,69 @@ header .headar_btn {
     align-items: center;
 }
 
+/*----------STORELISTー----------*/
+
+/*main*/
+
+.store-main_view {
+    height: 36.4vw;
+    color: #FFFFFF;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #09afd2 0%, #07cf9f 100%);
+    text-align: center;
+}
+
+.store-main_view h1 {
+    padding: 9.6vw 0 0 0;
+    font-size: 2.5rem;
+}
+
+.store-main_view p {
+    font-size: 1.3rem;
+    padding: 3.6vw 0 0 0;
+}
+
+.breadcrumbs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color:#dfe7ec;
+    color: #383e42;
+}
+
+.breadcrumbs li {
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+}
+.breadcrumbs li a{
+    color: #383e42;
+}
+
+.breadcrumbs li::after{
+    content: '>';
+    padding: 0 0.2em;
+    color: #8e9599;
+    
+}
+.breadcrumbs li:not(:last-child):after{
+    content: ">";
+    padding: 0 0.2em;
+    color: #8e9599;
+}
+
+/* 近くのお店一覧 */
+.area {
+    width: 92%;
+    margin: 0 auto;
+}
+.area h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 18.4vw 0 8vw 0;
+}
+
+
 /*フッター*/
 
 footer {
@@ -311,14 +374,13 @@ footer {
     background-image: linear-gradient(to right, #06a67e 0%, #0790a1 100%);
     background-size: 100vw;
     margin-top: 20vw;
-
 }
 
-footer .footer-grop{
+footer .footer-grop {
     padding-left: 4vw;
 }
 
-footer .footer-aicon-group{
+footer .footer-aicon-group {
     display: flex;
     padding-top: 11vw;
     padding-bottom: 11.3vw;
@@ -327,7 +389,6 @@ footer .footer-aicon-group{
 footer .footer-aoypay {
     padding-right: 10vw;
 }
-
 
 footer li {
     list-style: none;
@@ -354,7 +415,7 @@ footer .footer-text {
     display: flex;
 }
 
-footer .footer-text-list{
+footer .footer-text-list {
     display: flex;
     margin-bottom: 12.8vw;
 }
