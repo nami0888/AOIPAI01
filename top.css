@@ -1,0 +1,268 @@
+
+.main_view {
+    max-width: 100%;
+    height: 100vw;
+    background-image: url(images/mv.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main_view h1 {
+    position: absolute;
+    top: 36%;
+    left: 4%;
+    width: 46%;
+}
+
+.main_view p {
+    position: absolute;
+    top: 17.8%;
+    left: 4%;
+    width: 46%;
+}
+
+.campaign h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 12.6vw;
+    margin-bottom: 10.5vw;
+}
+
+.campaign .campaign-grop {
+    width: 72%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.campaign .campaign-grop {
+    width: 72%;
+    margin: 0 auto;
+}
+
+.campaign .campaign-grop .campaign-bnr {
+    position: relative;
+}
+
+.campaign .campaign-left_btn {
+    width: 7%;
+    position: absolute;
+    left: -11%;
+    top: 11vw;
+}
+
+.campaign .campaign-right_btn {
+    width: 7%;
+    position: absolute;
+    right: -11vw;
+    top: 11vw;
+}
+
+/*ご利用方法*/
+
+.service h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 26.6%;
+    margin-bottom: 9.3%;
+}
+
+.service .service_text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-left: 5.73vw;
+}
+
+.service .service_text_card {
+    font-weight: bold;
+    line-height: 1.9;
+    font-size: 1.5rem;
+    margin-left: 5.73vw;
+}
+
+.service .card_text {
+    font-weight: normal;
+    line-height: 1.6;
+    font-size: 1.3rem;
+}
+
+.service .service_grop li {
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: -4.8vw;
+}
+
+.service .service_grop li .aoipay_icon {
+    width: 29.8vw;
+}
+
+.service .service_grop li .card_icon {
+    width: 29.8vw;
+}
+
+.service .service_grop li .QR-icon {
+    width: 29.8vw;
+}
+
+.service .btn {
+    border: solid;
+    border-radius: 15px;
+    color: rgb(157, 166, 172);
+    width: 76.8vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12vw;
+}
+
+.service .btn a {
+    color: rgb(52, 62, 66);
+    text-decoration: none;
+    width: 100%;
+    height: 15.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.announce {
+    background-image: url(images/town.png);
+    background-position: top 9vw right;
+    background-size: 52.8vw;
+    background-repeat: no-repeat;
+}
+
+.announce h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 26.4vw;
+    margin-bottom: 14.6vw;
+}
+
+.announce .announce-text {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-left: 4vw;
+}
+
+.announce .announce-text :last-child {
+    margin: 6.6vw 0 9.3vw;
+    font-size: 1.1rem;
+    line-height: 5.3vw;
+}
+
+.announce .announce-text b {
+    font-size: 4.5rem;
+}
+
+.announce .announce-text a {
+    font-size: 4.5rem;
+    line-height: 20vw;
+}
+
+.announce .announce-btn {
+    border: solid;
+    border-radius: 15px;
+    color: rgb(157, 166, 172);
+    width: 76.8vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+.announce .announce-btn a {
+    color: rgb(52, 62, 66);
+    text-decoration: none;
+    width: 100%;
+    height: 15.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 46vw;
+    margin-bottom: 14.3vw;
+}
+
+.download p {
+    width: 64vw;
+    margin: 0 auto;
+    margin-bottom: 3.3vw;
+}
+
+.cussion h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 26.9vw;
+    margin-bottom: 11.2vw;
+}
+
+.cussion ul {
+    width: 92%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.cussion li {
+    border-top: solid rgb(223, 231, 236);
+    border-width: 1px 0 1px;
+    padding: 5.4vw 0 5.4vw 0;
+}
+
+.cussion li:first-child {
+    border: none;
+}
+
+.cussion dl {
+    font-size: 1.3rem;
+}
+
+.cussion dt {
+    background-image: url(images/Q-mark.png);
+    background-repeat: no-repeat;
+    background-size: 10.6vw;
+    padding-left: 12vw;
+    padding-top: 2.3vw;
+    height: 10.62vw;
+}
+
+.cussion dd {
+    background-image: url(images/A-mark.png);
+    background-repeat: no-repeat;
+    background-size: 10.6vw;
+    padding-left: 12vw;
+    padding-top: 2.3vw;
+    height: 10.62vw;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+.cussion a {
+    color: black;
+}
+
+.cussion .btn {
+    border: solid;
+    border-radius: 15px;
+    color: rgb(157, 166, 172);
+    width: 76.8vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12vw;
+}
+
+.cussion .btn a {
+    color: rgb(52, 62, 66);
+    text-decoration: none;
+    width: 100%;
+    height: 15.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

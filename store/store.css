@@ -1,0 +1,63 @@
+
+/*main*/
+
+.main_view {
+    height: 36.4vw;
+    color: #FFFFFF;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #09afd2 0%, #07cf9f 100%);
+    text-align: center;
+}
+
+.main_view h1 {
+    padding: 9.6vw 0 0 0;
+    font-size: 2.5rem;
+}
+
+.main_view .lead{
+    font-size: 1.3rem;
+    padding: 3.6vw 0 0 0;
+}
+
+.breadcrumbs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color:#dfe7ec;
+    color: #383e42;
+}
+
+.breadcrumbs li {
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+}
+.breadcrumbs li a{
+    color: #383e42;
+}
+
+.breadcrumbs li::after{
+    content: '>';
+    padding: 0 0.2em;
+    color: #8e9599;
+    
+}
+.breadcrumbs li:not(:last-child):after{
+    content: ">";
+    padding: 0 0.2em;
+    color: #8e9599;
+}
+
+/* 近くのお店一覧 */
+.area {
+    width: 92%;
+    margin: 0 auto;
+}
+.area h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 18.4vw 0 8vw 0;
+}
+
+
+/*フッター*/
