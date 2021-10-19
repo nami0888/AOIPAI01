@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../reset.css" rel="stylesheet" type="text/css">
     <link href="../style.css" rel="stylesheet" type="text/css">
-    
+
     <link href="store.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -19,9 +19,9 @@
 
     </header>
     <!-- MV -->
-    <section class="main_view">
+    <section class="common">
         <div class="store-main_view-text">
-            <h1>使えるお店一覧<br><span class="lead">STORE LIST</span></h1>
+            <h1 class="common">使えるお店一覧<br><span class="lead">STORE LIST</span></h1>
         </div>
     </section>
     <!-- パンくず -->
@@ -31,24 +31,28 @@
         <li>使えるお店一覧</li>
     </ol>
 
-
     <!-- 近くのお店一覧 -->
-    <section class="area">
+    <section class="primary">
         <h2>近くのお店をさがす</h2>
         <img src="../images/map.png" alt="大阪の中島の周辺の地図">
         <p>現在地からお近くにあるAOI PAY対応店舗を検索。<br>地図またはリストでお店を表示できます。</p>
-        <p>※スマートフォンまたはPCの位置情報サービスをオンにしてご利用ください。</p>
-        <div class="btn"><a href="#">現在地から検索</a></div>
+        <p class="attention">※スマートフォンまたはPCの位置情報サービスをオンにしてご利用ください。</p>
+        <div class="btn"><a href="#">現在地から検索 <span class="btn-aicon"><img src="../images/serach.png"
+                        alt="虫眼鏡"></span></a></div>
     </section>
-    <section>
+
+    <section class="search">
         <h2>全国のお店をさがす</h2>
-        <div>
-            <h3>エリアからさがす</h3>
-            <p>郵便番号からさがす</p>
-            <input type="text" name="postal-code" id="postal-code">
+        <div class="search-grop">
+            <h3 class="search-areagrop">エリアからさがす</h3>
+            <span class="post-grop">
+                <p>郵便番号からさがす</p>
+                <input type="text" name="postal-code" id="postal-code" class="post">
+            </span>
             <p>または</p>
             <p>都道府県からさがす</p>
             <select name="">
+                <option value="選択してください">選択してください</option>
                 <option value="北海道">北海道</option>
                 <option value="青森県">青森県</option>
                 <option value="岩手県">岩手県</option>
@@ -97,11 +101,9 @@
                 <option value="鹿児島県">鹿児島県</option>
                 <option value="沖縄県">沖縄県</option>
             </select>
-            </select>
-            <div class="btn"><a href="#">検索する</a></div>
         </div>
         <div>
-            <h3>ジャンルからさがす</h3>
+            <h3 class="genre">ジャンルからさがす</h3>
             <p>郵便番号からさがす</p>
             <input type="text" name="postal-code" id="postal-code">
             <p>または</p>
@@ -155,7 +157,8 @@
                 <option value="鹿児島県">鹿児島県</option>
                 <option value="沖縄県">沖縄県</option>
             </select>
-            <div class="btn"><a href="#">検索する <span class="aa"><img src="../images/magnifying-glass.png" alt="虫眼鏡"></a></span></div>
+            <div class="btn"><a href="#">検索する<span class="btn-aicon"><img src="../images/serach.png"
+                            alt="虫眼鏡"></a></span></div>
         </div>
     </section>
 

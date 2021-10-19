@@ -32,6 +32,21 @@ header .headar_btn {
     left: 88vw;
     top: 1.7vw;
 }
+.common{
+    color: #FFFFFF;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #09afd2 0%, #07cf9f 100%);
+    text-align: center;
+}
+.common h1 {
+    padding: 10.2vw 0 10.2vw 0;
+    font-size: 2.5rem;
+}
+
+.common .lead{
+    font-size: 1.3rem;
+    padding: 3.6vw 0 0 0;
+}
 
 
 /*フッター*/
@@ -94,7 +109,5 @@ footer .footer-text ul {
 
 footer .copy-aoiyuwaku {
     font-size: 1rem;
-    position: fixed;
-    bottom: 4vw;
-    right: 4vw;
+    padding: 0 0 4vw 61vw;
 }
