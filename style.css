@@ -7,6 +7,7 @@ body {
     max-width: 750px;
     margin: 0 auto;
     font-size: 1.4rem;
+    box-sizing: border-box;
 }
 
 img {
@@ -32,6 +33,9 @@ header .headar_btn {
     left: 88vw;
     top: 1.7vw;
 }
+
+
+
 .common{
     color: #FFFFFF;
     margin: 0 auto;
@@ -47,7 +51,6 @@ header .headar_btn {
     font-size: 1.3rem;
     padding: 3.6vw 0 0 0;
 }
-
 
 /*フッター*/
 
