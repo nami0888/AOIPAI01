@@ -82,13 +82,17 @@
     padding-left: 1em;
     text-indent: -1em;
 }
-
-.btn-aicon {
+.primary_btn-aicon img {
+    padding: 0 0 0 18vw;
+}
+.primary_btn-aicon {
     width: 3.7vw;
 }
 
-.btn-aicon img {
-    padding: 0 0 0 16vw;
+
+
+.primary_btn-aicon img {
+    padding: 0 0 0 19vw;
 }
 
 .search h2 {
@@ -105,12 +109,21 @@
     color: #FFFFFF;
     background-color: #09afd2;
 }
+.primary_btn-aicon img {
+    padding: 0 0 0 18vw;
+}
+.primary_btn-aicon {
+    width: 3.7vw;
+}
+
 
 .wrapper {
-    border: 0.2vw solid;
+    border: 1px solid;
     width: 92%;
     margin: 0 auto;
     border-color: #09afd2;
+    margin-bottom: 10.2vw;
+    
 }
 
 .wrapper p {
@@ -124,7 +137,9 @@
 
 .wrapper .post-grop .post {
     width: 82vw;
-    padding: 4.8vw 0;
+    padding: 4.8vw 4.2vw;
+    box-sizing: border-box;
+    font-size: 1.5rem;
 }
 
 .wrapper .change {
@@ -139,18 +154,17 @@
 
 .list {
     width: 82vw;
-    padding: 4.8vw 0;
+    padding: 4.8vw 4.2vw;
     margin: 0 0 8vw;
-   
 }
-.seach-btn{
+
+.seach-btn {
     border-radius: 15px;
     background-image: linear-gradient(to right, #09afd2 0%, #07cf9f 100%);
     width: 75vw;
     margin: 0 auto;
     text-align: center;
-    margin-bottom:7.7vw;
-
+    margin-bottom: 7.7vw;
 }
 
 .seach-btn a {
@@ -162,21 +176,71 @@
     justify-content: center;
     align-items: center;
 }
+.seach-btn-aicon img {
+    padding: 0 0 0 24vw;
+}
+.seach-btn-aicon {
+    width: 3.7vw;
+}
 
 /* ジャンルからさがす */
 
-.wrapper-bottom{
-    border: 0.2vw solid;
+.wrapper-bottom {
+    border: 1px solid;
     width: 92%;
     margin: 0 auto;
     border-color: #07d09e;
 }
 
-.wrapper-bottom .container{
+.wrapper-bottom .container {
     font-size: 1.8rem;
     padding: 5.8vw 0 5.8vw;
     text-align: center;
     margin: 0 auto;
     color: #FFFFFF;
-    background-color:#07d09e;
+    background-color: #07d09e;
+}
+.wrapper-bottom .genre_group{
+    width: 92%;
+    margin: 0 auto;
+
+}
+.wrapper-bottom .genre_group .post{
+width: 82vw;
+padding: 4.8vw 4.2vw;
+box-sizing: border-box;
+font-size: 1.5rem;
+}
+
+.wrapper-bottom .genre_group p {
+    font-size: 1.5rem;
+    margin: 7.7vw 0 4vw 0;
+}
+
+.wrapper-bottom .change {
+    text-align: center;
+    margin: 8.2vw 0 0 0;
+}
+
+input::placeholder {
+    color: #9da6ac;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 20px;
+    padding: 7px 30px 7px 10px;
+    font-size: 93%;
+    line-height: 1.1em;
+
+    background-image: url(../images/pull-down.png);
+    background-repeat: no-repeat;
+    background-size: 12px 10px;
+    background-position: right 10px center;
 }
